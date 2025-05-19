@@ -39,6 +39,6 @@ curl -X POST \
 ```
 curl -X GET \
   https://s1rrkf2n0f.execute-api.eu-west-1.amazonaws.com/dev/panic/ead80580-eee8-4900-add1-8b5cd67dabb6 \
-  -H 'x-api-key: K4DVdUHoBv1SkhM1LaBgY4xFM8hsUWST8dgYl2NG' \
+  -H 'x-api-key: ' \
   -i
 ```
