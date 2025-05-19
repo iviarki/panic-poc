@@ -1,8 +1,14 @@
-# Welcome to your CDK TypeScript project
+# Welcome to the PanicPOC
 
-This is a blank project for CDK development with TypeScript.
+## Overview
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+Building a panic response API system that will enable users or integrators to trigger emergency alerts and query panic event statuses in real time. The system will prioritize high availability, fault tolerance, and observability, ensuring reliable performance even under high request loads.
+
+## Core Features
+
+- POST /panic endpoint to create a new panic event and return a unique ID immediately.
+- GET /panic/:id endpoint to retrieve panic event details, even if processing is still underway.
+- Asynchronous processing pipeline to enrich and persist full panic event data.
 
 ## Useful commands
 
